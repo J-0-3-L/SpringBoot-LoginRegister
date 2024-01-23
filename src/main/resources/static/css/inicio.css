@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.cus-container{
+    width: 25%; /* Ancho relativo del contenedor */
+    margin: 0 auto; /* Centrado horizontal */
+    margin-top: 100px; /* Espacio superior */
+    padding: 20px; /* Espacio interno */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #dcf0db; /* Color de fondo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cus-container h2{
+    text-align: center;
+}
+.cus-container form button{
+    display: block;
+    margin: 10px auto;
+}
+.cus-container h6 {
+    text-align: center;
+}
+.cus-container p{
+    text-align: center;
+}
+
+.container-wrapper {
+    display: flex; /* Utilizamos flexbox para alinear los divs horizontalmente */
+    justify-content: space-between; /* Distribuir espacio entre los divs */
+}
+.cus-container {
+    width: 25%; /* Ancho de cada contenedor, ajustable según tus preferencias */
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
